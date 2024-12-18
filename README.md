@@ -111,23 +111,3 @@
    set {name_file} '{data}'            # Save JSON data
    get {name_file}                     # Retrieve data
    ```
-
-### RabbitMQ
-- Access RabbitMQ Management UI:
-  ```
-  http://localhost:15672
-  ```
-  - Login credentials:
-    - Username: `mquser`
-    - Password: `mqpassword`
-
-### Elasticsearch
-- View basic cluster information:
-  ```
-  http://localhost:9200
-  ```
-
-### Kibana
-- Access the Kibana GUI:
-  ```
-  http://localhost:5601
